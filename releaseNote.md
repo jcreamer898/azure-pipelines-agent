@@ -1,3 +1,24 @@
+## Features
+ - Update registry keys for AdoptOpenJDK (#3781)
+ - Added gMSA accounts support  (#3791)
+ - Set sid service type as unrestricted - to make permissions for agent service more manageable  (#3795)
+ - Added knob to pass additional options to docker network create command (#3796)
+ - Users/flsaplac/diag folder location customisable (#3797)
+ - Updating vss-api-netcore package (#3827)
+ - Bump git version to 2.36.1 (#3839)
+ - Added message - in case when account is not managed, but WindowsLogon… (#3845)
+ - Improve retry logic for downloading tasks (#3857)
+
+## Bugs
+ - Custom LFS server fix - reworked changes from PR#2706  (#3785)
+ - Fix for "Azure DevOps Pipelines fails git with an HTTP 400 error" (#3793)
+ - Update links in installdependencies.sh (#3811)
+
+## Misc
+ - Fix event logs dumping (#3810)
+ - Adding Microsoft SECURITY.MD (#3847)
+ - Updated the link to the hosted images repositiry in issue template (#3856)
+
 
 ## Agent Downloads
 
